@@ -1,0 +1,483 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollQuiz"
+    style="@style/ScrollView"
+    tools:context=".Quiz">
+
+    <LinearLayout style="@style/MainLayout">
+
+        <ImageView
+            style="@style/Image"
+            android:src="@drawable/world" />
+
+        <android.support.v7.widget.CardView
+            style="@style/QuestionCard"
+            card_view:cardCornerRadius="@dimen/cardRadius">
+
+            <LinearLayout style="@style/CardLayout">
+
+                <TextView
+                    android:id="@+id/question1"
+                    style="@style/QuestionTitle"
+                    android:text="@string/questionTitle1" />
+
+                <TextView
+                    style="@style/Question"
+                    android:text="@string/question1" />
+
+                <RadioGroup
+                    android:id="@+id/groupQuestion1"
+                    style="@style/RadioGroup">
+
+                    <RadioButton
+                        android:id="@+id/question1A"
+                        style="@style/AnswerTop"
+                        android:text="@string/answer1A" />
+
+                    <RadioButton
+                        android:id="@+id/question1B"
+                        style="@style/Answer"
+                        android:text="@string/answer1B" />
+
+                    <RadioButton
+                        android:id="@+id/question1C"
+                        style="@style/Answer"
+                        android:text="@string/answer1C" />
+
+                    <RadioButton
+                        android:id="@+id/question1D"
+                        style="@style/Answer"
+                        android:text="@string/answer1D" />
+
+                </RadioGroup>
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/submitQuestion1"
+                style="@style/SubmitButton"
+                android:text="@string/submitButton" />
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            style="@style/QuestionCard"
+            card_view:cardCornerRadius="@dimen/cardRadius">
+
+            <LinearLayout style="@style/CardLayout">
+
+                <TextView
+                    style="@style/QuestionTitle"
+                    android:text="@string/questionTitle2" />
+
+                <TextView
+                    style="@style/Question"
+                    android:text="@string/question2" />
+
+                <RadioGroup
+                    android:id="@+id/groupQuestion2"
+                    style="@style/RadioGroup">
+
+                    <RadioButton
+                        android:id="@+id/question2A"
+                        style="@style/AnswerTop"
+                        android:text="@string/answer2A" />
+
+                    <RadioButton
+                        android:id="@+id/question2B"
+                        style="@style/Answer"
+                        android:text="@string/answer2B" />
+
+                    <RadioButton
+                        android:id="@+id/question2C"
+                        style="@style/Answer"
+                        android:text="@string/answer2C" />
+
+                    <RadioButton
+                        android:id="@+id/question2D"
+                        style="@style/Answer"
+                        android:text="@string/answer2D" />
+
+                </RadioGroup>
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/submitQuestion2"
+                style="@style/SubmitButton"
+                android:text="@string/submitButton" />
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            style="@style/QuestionCard"
+            card_view:cardCornerRadius="@dimen/cardRadius">
+
+            <LinearLayout style="@style/CardLayout">
+
+                <TextView
+                    style="@style/QuestionTitle"
+                    android:text="@string/questionTitle3" />
+
+                <TextView
+                    style="@style/Question"
+                    android:text="@string/question3" />
+
+                <RadioGroup
+                    android:id="@+id/groupQuestion3"
+                    style="@style/RadioGroup">
+
+                    <RadioButton
+                        android:id="@+id/question3A"
+                        style="@style/AnswerTop"
+                        android:text="@string/answer3A" />
+
+                    <RadioButton
+                        android:id="@+id/question3B"
+                        style="@style/Answer"
+                        android:text="@string/answer3B" />
+
+                    <RadioButton
+                        android:id="@+id/question3C"
+                        style="@style/Answer"
+                        android:text="@string/answer3C" />
+
+                    <RadioButton
+                        android:id="@+id/question3D"
+                        style="@style/Answer"
+                        android:text="@string/answer3D" />
+
+                </RadioGroup>
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/submitQuestion3"
+                style="@style/SubmitButton"
+                android:text="@string/submitButton" />
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            style="@style/QuestionCard"
+            card_view:cardCornerRadius="@dimen/cardRadius">
+
+            <LinearLayout style="@style/CardLayout">
+
+                <TextView
+                    style="@style/QuestionTitle"
+                    android:text="@string/questionTitle4" />
+
+                <TextView
+                    style="@style/Question"
+                    android:text="@string/question4" />
+
+                <CheckBox
+                    android:id="@+id/question4A"
+                    style="@style/AnswerTop"
+                    android:text="@string/answer4A" />
+
+                <CheckBox
+                    android:id="@+id/question4B"
+                    style="@style/Answer"
+                    android:text="@string/answer4B" />
+
+                <CheckBox
+                    android:id="@+id/question4C"
+                    style="@style/Answer"
+                    android:text="@string/answer4C" />
+
+                <CheckBox
+                    android:id="@+id/question4D"
+                    style="@style/Answer"
+                    android:text="@string/answer4D" />
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/submitQuestion4"
+                style="@style/SubmitButton"
+                android:text="@string/submitButton" />
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            style="@style/QuestionCard"
+            card_view:cardCornerRadius="@dimen/cardRadius">
+
+            <LinearLayout style="@style/CardLayout">
+
+                <TextView
+                    style="@style/QuestionTitle"
+                    android:text="@string/questionTitle5" />
+
+                <TextView
+                    style="@style/Question"
+                    android:text="@string/question5" />
+
+                <RadioGroup
+                    android:id="@+id/groupQuestion5"
+                    style="@style/RadioGroup">
+
+                    <RadioButton
+                        android:id="@+id/question5A"
+                        style="@style/AnswerTop"
+                        android:text="@string/answer5A" />
+
+                    <RadioButton
+                        android:id="@+id/question5B"
+                        style="@style/Answer"
+                        android:text="@string/answer5B" />
+
+                    <RadioButton
+                        android:id="@+id/question5C"
+                        style="@style/Answer"
+                        android:text="@string/answer5C" />
+
+                    <RadioButton
+                        android:id="@+id/question5D"
+                        style="@style/Answer"
+                        android:text="@string/answer5D" />
+
+                </RadioGroup>
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/submitQuestion5"
+                style="@style/SubmitButton"
+                android:text="@string/submitButton" />
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            style="@style/QuestionCard"
+            card_view:cardCornerRadius="@dimen/cardRadius">
+
+            <LinearLayout style="@style/CardLayout">
+
+                <TextView
+                    style="@style/QuestionTitle"
+                    android:text="@string/questionTitle6" />
+
+                <TextView
+                    style="@style/Question"
+                    android:text="@string/question6" />
+
+                <CheckBox
+                    android:id="@+id/question6A"
+                    style="@style/AnswerTop"
+                    android:text="@string/answer6A" />
+
+                <CheckBox
+                    android:id="@+id/question6B"
+                    style="@style/Answer"
+                    android:text="@string/answer6B" />
+
+                <CheckBox
+                    android:id="@+id/question6C"
+                    style="@style/Answer"
+                    android:text="@string/answer6C" />
+
+                <CheckBox
+                    android:id="@+id/question6D"
+                    style="@style/Answer"
+                    android:text="@string/answer6D" />
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/submitQuestion6"
+                style="@style/SubmitButton"
+                android:text="@string/submitButton" />
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            style="@style/QuestionCard"
+            card_view:cardCornerRadius="@dimen/cardRadius">
+
+            <LinearLayout style="@style/CardLayout">
+
+                <TextView
+                    style="@style/QuestionTitle"
+                    android:text="@string/questionTitle7" />
+
+                <TextView
+                    style="@style/Question"
+                    android:text="@string/question7" />
+
+                <RadioGroup
+                    android:id="@+id/groupQuestion7"
+                    style="@style/RadioGroup">
+
+                    <RadioButton
+                        android:id="@+id/question7A"
+                        style="@style/AnswerTop"
+                        android:text="@string/answer7A" />
+
+                    <RadioButton
+                        android:id="@+id/question7B"
+                        style="@style/Answer"
+                        android:text="@string/answer7B" />
+
+                    <RadioButton
+                        android:id="@+id/question7C"
+                        style="@style/Answer"
+                        android:text="@string/answer7C" />
+
+                    <RadioButton
+                        android:id="@+id/question7D"
+                        style="@style/Answer"
+                        android:text="@string/answer7D" />
+
+                </RadioGroup>
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/submitQuestion7"
+                style="@style/SubmitButton"
+                android:text="@string/submitButton" />
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            style="@style/QuestionCard"
+            card_view:cardCornerRadius="@dimen/cardRadius">
+
+            <LinearLayout style="@style/CardLayout">
+
+                <TextView
+                    style="@style/QuestionTitle"
+                    android:text="@string/questionTitle8" />
+
+                <TextView
+                    style="@style/Question"
+                    android:text="@string/question8" />
+
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/question8Answer"
+                android:layout_width="@dimen/textAnswerWidth"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|center"
+                android:layout_marginBottom="@dimen/textAnswerBottom"
+                android:hint="@string/answerHint"
+                android:inputType="textCapWords"
+                android:textColor="@color/answerColor" />
+
+            <Button
+                android:id="@+id/submitQuestion8"
+                style="@style/SubmitButton"
+                android:text="@string/submitButton" />
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            style="@style/QuestionCard"
+            card_view:cardCornerRadius="@dimen/cardRadius">
+
+            <LinearLayout style="@style/CardLayout">
+
+                <TextView
+                    style="@style/QuestionTitle"
+                    android:text="@string/questionTitle9" />
+
+                <TextView
+                    style="@style/Question"
+                    android:text="@string/question9" />
+
+                <RadioGroup
+                    android:id="@+id/groupQuestion9"
+                    style="@style/RadioGroup">
+
+                    <RadioButton
+                        android:id="@+id/question9A"
+                        style="@style/AnswerTop"
+                        android:text="@string/answer9A" />
+
+                    <RadioButton
+                        android:id="@+id/question9B"
+                        style="@style/Answer"
+                        android:text="@string/answer9B" />
+
+                    <RadioButton
+                        android:id="@+id/question9C"
+                        style="@style/Answer"
+                        android:text="@string/answer9C" />
+
+                    <RadioButton
+                        android:id="@+id/question9D"
+                        style="@style/Answer"
+                        android:text="@string/answer9D" />
+
+                </RadioGroup>
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/submitQuestion9"
+                style="@style/SubmitButton"
+                android:text="@string/submitButton" />
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            style="@style/QuestionCard"
+            card_view:cardCornerRadius="@dimen/cardRadius">
+
+            <LinearLayout style="@style/CardLayout">
+
+                <TextView
+                    style="@style/QuestionTitle"
+                    android:text="@string/questionTitle10" />
+
+                <TextView
+                    style="@style/Question"
+                    android:text="@string/question10" />
+
+                <RadioGroup
+                    android:id="@+id/groupQuestion10"
+                    style="@style/RadioGroup">
+
+                    <RadioButton
+                        android:id="@+id/question10A"
+                        style="@style/AnswerTop"
+                        android:text="@string/answer10A" />
+
+                    <RadioButton
+                        android:id="@+id/question10B"
+                        style="@style/Answer"
+                        android:text="@string/answer10B" />
+
+                    <RadioButton
+                        android:id="@+id/question10C"
+                        style="@style/Answer"
+                        android:text="@string/answer10C" />
+
+                    <RadioButton
+                        android:id="@+id/question10D"
+                        style="@style/Answer"
+                        android:text="@string/answer10D" />
+
+                </RadioGroup>
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/submitQuestion10"
+                style="@style/SubmitButton"
+                android:text="@string/submitButton" />
+
+        </android.support.v7.widget.CardView>
+
+        <Button
+            android:id="@+id/resultsButton"
+            android:layout_width="@dimen/cardWidth"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center"
+            android:layout_marginBottom="@dimen/layoutMargin"
+            android:background="@drawable/buttonshape"
+            android:text="@string/resultsButton"
+            android:textColor="@color/buttonTextColor"
+            android:textSize="@dimen/questionText" />
+
+    </LinearLayout>
+</ScrollView>

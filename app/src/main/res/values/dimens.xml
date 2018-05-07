@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Margins -->
+    <dimen name="layoutMargin">16dp</dimen>
+    <dimen name="titleBottom">76dp</dimen>
+    <dimen name="textTopMargin">8dp</dimen>
+    <dimen name="answerMargin">6dp</dimen>
+    <dimen name="textAnswerBottom">160dp</dimen>
+    <dimen name="imageBottom">20dp</dimen>
+    <dimen name="percentTopMargin">38dp</dimen>
+    <dimen name="retryButtonMargin">91dp</dimen>
+    <dimen name="buttonPadding">0dp</dimen>
+    <dimen name="toastPadding">10dp</dimen>
+    <dimen name="beginButtonMargin">92dp</dimen>
+    <dimen name="nextButtonMargin">88dp</dimen>
+
+    <!-- Width, Height, & Radius -->
+    <dimen name="cardWidth">300dp</dimen>
+    <dimen name="cardHeight">320dp</dimen>
+    <dimen name="cardRadius">4dp</dimen>
+    <dimen name="imageHeight">200dp</dimen>
+    <dimen name="nameWidth">220dp</dimen>
+    <dimen name="textAnswerWidth">268dp</dimen>
+    <dimen name="resultCardHeight">390dp</dimen>
+    <dimen name="buttonHeight">30dp</dimen>
+    <dimen name="buttonRadius">2dp</dimen>
+    <dimen name="toastRadius">5dp</dimen>
+    <dimen name="toastBorder">2dp</dimen>
+
+    <!-- Text Size -->
+    <dimen name="titleText">38sp</dimen>
+    <dimen name="questionText">16sp</dimen>
+    <dimen name="percentText">45sp</dimen>
+    <dimen name="resultsText">20sp</dimen>
+</resources>

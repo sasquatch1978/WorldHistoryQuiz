@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- App title. [CHAR LIMIT=NONE] -->
+    <string name="app_name">World History Quiz</string>
+
+    <!-- Xml Strings-->
+    <!-- Title. [CHAR LIMIT=NONE] -->
+    <string name="title">World History\nQuiz</string>
+    <!-- Name EditText. [CHAR LIMIT=NONE] -->
+    <string name="nameHint">Please Enter Your Name</string>
+    <!-- Scoring information. [CHAR LIMIT=NONE] -->
+    <string name="scoreTitle">Scoring:</string>
+    <string name="scorePointAmount">Questions with one answer will score one point.\n\nQuestions with two answers will score two points.
+        If more than two answers are marked, it will be counted as wrong.\n\nQuestions with text entry will score three points.</string>
+    <!-- Question one. [CHAR LIMIT=NONE] -->
+    <string name="questionTitle1">Question 1 of 10:</string>
+    <string name="question1">An early form of writing developed by the Sumerians was called:</string>
+    <string name="answer1A">A) Sanskrit</string>
+    <string name="answer1B">B) Cuneiform</string>
+    <string name="answer1C">C) Indus</string>
+    <string name="answer1D">D) Elamite</string>
+    <!-- Question two. [CHAR LIMIT=NONE] -->
+    <string name="questionTitle2">Question 2 of 10:</string>
+    <string name="question2">The first Olympic Games in 776 BC, were held in what Greek city?</string>
+    <string name="answer2A">A) Athens</string>
+    <string name="answer2B">B) Corinth</string>
+    <string name="answer2C">C) Olympia</string>
+    <string name="answer2D">D) Thebes</string>
+    <!-- Question three. [CHAR LIMIT=NONE] -->
+    <string name="questionTitle3">Question 3 of 10:</string>
+    <string name="question3">The Great Pyramid, Egypt\'s largest pyramid, is located where?</string>
+    <string name="answer3A">A) Giza</string>
+    <string name="answer3B">B) Dahshur</string>
+    <string name="answer3C">C) Lisht</string>
+    <string name="answer3D">D) Nuri</string>
+    <!-- Question four. [CHAR LIMIT=NONE] -->
+    <string name="questionTitle4">Question 4 of 10:</string>
+    <string name="question4">Which two cities were destroyed in the Mount Vesuvius eruption of AD 79?</string>
+    <string name="answer4A">A) Herculaneum</string>
+    <string name="answer4B">B) Misenum</string>
+    <string name="answer4C">C) Pompeii</string>
+    <string name="answer4D">D) Neapolis</string>
+    <!-- Question five. [CHAR LIMIT=NONE] -->
+    <string name="questionTitle5">Question 5 of 10:</string>
+    <string name="question5">What was the Colosseum in Rome originally used for?</string>
+    <string name="answer5A">A) Housing</string>
+    <string name="answer5B">B) Entertainment</string>
+    <string name="answer5C">C) Workshops</string>
+    <string name="answer5D">D) Fortress</string>
+    <!-- Question six. [CHAR LIMIT=NONE] -->
+    <string name="questionTitle6">Question 6 of 10:</string>
+    <string name="question6">Which two were invented in China?</string>
+    <string name="answer6A">A) Compass</string>
+    <string name="answer6B">B) Eyeglasses</string>
+    <string name="answer6C">C) Windmill</string>
+    <string name="answer6D">D) Gunpowder</string>
+    <!-- Question seven. [CHAR LIMIT=NONE] -->
+    <string name="questionTitle7">Question 7 of 10:</string>
+    <string name="question7">Vikings created a settlement called Vinland in 986. It was at present-day:</string>
+    <string name="answer7A">A) Newfoundland</string>
+    <string name="answer7B">B) Maine</string>
+    <string name="answer7C">C) Greenland</string>
+    <string name="answer7D">D) Iceland</string>
+    <!-- Question eight. [CHAR LIMIT=NONE] -->
+    <string name="questionTitle8">Question 8 of 10:</string>
+    <string name="question8">Where did Napolean\'s final defeat take place?</string>
+    <string name="answerHint">Answer</string>
+    <!-- Question nine. [CHAR LIMIT=NONE] -->
+    <string name="questionTitle9">Question 9 of 10:</string>
+    <string name="question9">In World War 1, which country was a member of the Central Powers?</string>
+    <string name="answer9A">A) Japan</string>
+    <string name="answer9B">B) Italy</string>
+    <string name="answer9C">C) Germany</string>
+    <string name="answer9D">D) England</string>
+    <!-- Question ten. [CHAR LIMIT=NONE] -->
+    <string name="questionTitle10">Question 10 of 10:</string>
+    <string name="question10">What country did the Bay of Pigs invasion take place in?</string>
+    <string name="answer10A">A) France</string>
+    <string name="answer10B">B) Brazil</string>
+    <string name="answer10C">C) Canada</string>
+    <string name="answer10D">D) Cuba</string>
+    <!-- Results page. [CHAR LIMIT=NONE] -->
+    <string name="resultsTitle">Results:</string>
+    <string name="progessPercent">25%</string>
+    <string name="fillerText">This is filler text.</string>
+    <!-- Buttons. [CHAR LIMIT=10] -->
+    <string name="beginButton">Begin</string>
+    <string name="nextButton">Next</string>
+    <string name="submitButton">Submit</string>
+    <string name="resultsButton">Results</string>
+    <string name="shareButton">Share</string>
+    <string name="retryButton">Retry</string>
+
+    <!-- Java Strings-->
+    <!-- Good luck toast. It will be shown in the format of "Good luck, Bob." where Bob is the user's name. [CHAR LIMIT=NONE] -->
+    <string name="goodLuck">Good luck, <xliff:g example="Bob" id="userName">%s</xliff:g>.</string>
+    <!-- No name entered toast. [CHAR LIMIT=NONE] -->
+    <string name="enterName">Please Enter Your Name.</string>
+    <!-- Result toast message. It will be shown in the format of "You scored 14 out of 14 points." where 14 is the number correct. [CHAR LIMIT=NONE] -->
+    <string name="resultToast">You scored <xliff:g example="14" id="score">%d</xliff:g> out of 14 points.</string>
+    <!-- Result message. It will be shown in the format of "Outstanding, Bob!" where Bob is the user's name. [CHAR LIMIT=NONE] -->
+    <string name="outstanding">Outstanding, <xliff:g example="Bob" id="person">%s</xliff:g>!</string>
+    <string name="good">Good job, <xliff:g example="Bob" id="person">%s</xliff:g>!</string>
+    <string name="ok">You did OK, <xliff:g example="Bob" id="person">%s</xliff:g>.</string>
+    <string name="notGood">Not so good, <xliff:g example="Bob" id="person">%s</xliff:g>.</string>
+    <!-- Percent message. It will be shown in the format of "100%" where 100 is percentage correct. [CHAR LIMIT=10] -->
+    <string name="percentCorrect"><xliff:g example="100" id="percentScored">%d</xliff:g>%%</string>
+    <!-- Number correct message. It will be shown in the format of "14 out of 14 points." where 14 is the number correct. [CHAR LIMIT=NONE] -->
+    <string name="numberCorrect"><xliff:g example="14" id="points">%d</xliff:g> out of 14 points.</string>
+    <!-- Intent share message. [CHAR LIMIT=NONE] -->
+    <string name="shareMessage">On The World History Quiz, I scored\u0020</string>
+    <!-- No answer selected toast. [CHAR LIMIT=NONE] -->
+    <string name="selectAnswer">Please select an answer.</string>
+    <!-- Select two answers toast for checkboxes. [CHAR LIMIT=NONE] -->
+    <string name="twoAnswers">Please select two answers.</string>
+    <!-- No answer entered toast for EditText. [CHAR LIMIT=NONE] -->
+    <string name="enterAnswer">Please enter an answer.</string>
+    <!-- Correct answer toast. [CHAR LIMIT=NONE] -->
+    <string name="correct">Correct!</string>
+    <!-- Wrong answer toast. [CHAR LIMIT=NONE] -->
+    <!-- Question one. -->
+    <string name="oneWrong">Wrong, B.</string>
+    <!-- Question two. -->
+    <string name="twoWrong">Wrong, C.</string>
+    <!-- Question three. -->
+    <string name="threeWrong">Wrong, A.</string>
+    <!-- Question four. -->
+    <string name="fourWrong"><![CDATA[Wrong, A & C.]]></string>
+    <!-- Question five. -->
+    <string name="fiveWrong">Wrong, B.</string>
+    <!-- Question six. -->
+    <string name="sixWrong"><![CDATA[Wrong, A & D.]]></string>
+    <!-- Question seven. -->
+    <string name="sevenWrong">Wrong, A.</string>
+    <!-- Question eight. -->
+    <string name="eightWrong">Wrong, Waterloo.</string>
+    <!-- Question nine. -->
+    <string name="nineWrong">Wrong, C.</string>
+    <!-- Question ten. -->
+    <string name="tenWrong">Wrong, D.</string>
+    <!-- Question eight answer. [CHAR LIMIT=NONE] -->
+    <string name="eightAnswer">Waterloo</string>
+</resources>

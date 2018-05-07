@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/ScrollView"
+    tools:context=".Results">
+
+    <LinearLayout style="@style/MainLayout">
+
+        <ImageView
+            style="@style/Image"
+            android:src="@drawable/world" />
+
+        <android.support.v7.widget.CardView
+            style="@style/TitleCard"
+            card_view:cardCornerRadius="@dimen/cardRadius">
+
+            <LinearLayout style="@style/CardLayout">
+
+                <TextView
+                    style="@style/QuestionTitle"
+                    android:text="@string/resultsTitle" />
+
+                <TextView
+                    android:id="@+id/correct"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/percentTopMargin"
+                    android:gravity="center"
+                    android:text="@string/fillerText"
+                    android:textColor="@color/questionColor"
+                    android:textSize="@dimen/resultsText" />
+
+                <TextView
+                    android:id="@+id/percent"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/percentTopMargin"
+                    android:gravity="center"
+                    android:text="@string/progessPercent"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="@dimen/percentText" />
+
+                <TextView
+                    android:id="@+id/results"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/percentTopMargin"
+                    android:gravity="center"
+                    android:text="@string/fillerText"
+                    android:textColor="@color/questionColor"
+                    android:textSize="@dimen/resultsText" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_marginBottom="@dimen/layoutMargin"
+                android:layout_marginLeft="@dimen/layoutMargin"
+                android:layout_marginRight="@dimen/layoutMargin">
+
+                <Button
+                    android:id="@+id/shareButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/buttonshape"
+                    android:text="@string/shareButton"
+                    android:textColor="@color/buttonTextColor"
+                    android:textSize="@dimen/questionText" />
+
+                <Button
+                    android:id="@+id/retryButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="@dimen/retryButtonMargin"
+                    android:layout_marginStart="@dimen/retryButtonMargin"
+                    android:background="@drawable/buttonshape"
+                    android:text="@string/retryButton"
+                    android:textColor="@color/buttonTextColor"
+                    android:textSize="@dimen/questionText" />
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
+</ScrollView>
